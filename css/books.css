@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+body{
+    font-family: 'Zen Dots', cursive;
+    font-size: 14pt;
+}
+.navbar-nav.mx-auto .nav-item img{
+    margin-top: -5px;
+    margin-right: 10px;
+}
+.navbar{
+    padding: 0px;
+    background-color: #506072;
+}
+.nav-link{
+    color: #fff !important;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.dropdown-item{
+    color: #337ab7 !important;
+    font-size: x-large;
+}
+.dropdown>.show>a:hover,
+.dropdown>.show>a:focus{
+    color: #fff !important;
+    background-color: #767676;
+}
+#content{
+    margin-top: 10px;
+}
+.row .col-md-2 .sidebar{
+    border: 2px solid #dfdfdf;
+    background-color: #f7f7f7;
+}
+.sidebar{
+    padding: 5px;
+}
+.card-body table td:hover {
+    background-color: antiquewhite;
+}
+.card-body {
+    padding: 0px;
+}
+.table {
+    margin-bottom: 0px;
+}
+.table td {
+    border-top: none;
+    border-bottom: 1px solid #dee2e6;
+    padding-left: 2.5rem;
+}
+td>em{
+    margin-right: 5px;
+    font-size: 15px;
+}
+#aboutme{
+ background-color: #506072;
+ color: #ffffff;
+ padding-top: 30px;
+ padding-bottom: 30px;
+}
+#last-data{
+    height: 100px;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+/* 限制圖片大小 */
+.container-fluid .row  img{
+    width: 80%;
+    margin: auto;
+
+}
+/* 隱藏標題字數... */
+.card-text {
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+/* 購物車按鈕 */
+.btn.btn-primary{
+    display: table;
+    margin: auto;
+    background-color: rgb(87, 10, 14);
+}
+  /*關於我們  */
+#scontent{
+    background-color: #506072;
+}
